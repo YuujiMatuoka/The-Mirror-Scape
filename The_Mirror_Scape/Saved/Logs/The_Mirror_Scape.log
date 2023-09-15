@@ -1335,3 +1335,80 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.15-04.28.40:705][196]LogAssetRegistry: Asset discovery search completed in 73.0143 seconds
 [2023.09.15-04.28.40:729][196]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
 [2023.09.15-04.29.27:490][863]LogDerivedDataCache: C:/Users/yuuji/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.276 and deleted 0 files with total size 0 MiB. Scanned 1894 files in 1884 folders with total size 48 MiB.
+[2023.09.15-04.34.50:786][692]LogShaderCompilers: Display: ================================================
+[2023.09.15-04.34.50:786][692]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.15-04.34.50:786][692]LogShaderCompilers: Display: Total job queries 104, among them cache hits 13 (12.50%)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Tracking 90 distinct input hashes that result in 78 distinct outputs (86.67%)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: RAM used: 0.82 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Shaders Compiled: 90
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Jobs assigned 91, completed 90 (98.90%)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Average time worker was idle: 14.74 s
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Time job spent in pending queue: average 26.47 s, longest 71.39 s
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Job execution time: average 17.73 s, max 41.51 s
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Job life time (pending + execution): average 44.49 s, max 74.97
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 77.30 s
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Jobs were issued in 46 batches (only local compilation was used), average 1.98 jobs/batch
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Average processing rate: 1.16 jobs/sec
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Total thread time: 280.09 s
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Total thread preprocess time: 11.73 s
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Percentage time preprocessing: 4.19%
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Effective parallelization: 3.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                    FCloudRenderViewPS000true (compiled    1 times, average 4.79 sec, max 4.79 sec, min 4.79 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 4.49 sec, max 7.05 sec, min 3.14 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 4.37 sec, max 4.37 sec, min 4.37 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 4.32 sec, max 4.32 sec, min 4.32 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 27.22% of total time (compiled   17 times, average 4.49 sec, max 7.05 sec, min 3.14 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.56% of total time (compiled    8 times, average 4.05 sec, max 7.17 sec, min 2.16 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.11% of total time (compiled    9 times, average 2.84 sec, max 4.45 sec, min 1.48 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.40% of total time (compiled    6 times, average 2.52 sec, max 4.16 sec, min 1.62 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.66% of total time (compiled    6 times, average 2.17 sec, max 4.26 sec, min 1.14 sec)
+[2023.09.15-04.34.50:787][692]LogShaderCompilers: Display: ================================================
+[2023.09.15-04.34.59:878][992]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.15-04.35.47:080][762]LogSlate: Window 'Source Control Login' being destroyed
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Content: 'E:/UE_5.1/Engine/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Bridge/Content: 'E:/UE_5.1/Engine/Plugins/Bridge/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Animation/ControlRig/Content: 'E:/UE_5.1/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content: 'E:/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Animation/IKRig/Content: 'E:/UE_5.1/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:338][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/FX/Niagara/Content: 'E:/UE_5.1/Engine/Plugins/FX/Niagara/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content: 'E:/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'E:/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content: 'E:/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content: 'E:/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Interchange/Runtime/Content: 'E:/UE_5.1/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/Metasound/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content: 'E:/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/2D/Paper2D/Content: 'E:/UE_5.1/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content: 'E:/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Media/MediaPlate/Content: 'E:/UE_5.1/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content: 'E:/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.35.58:491][291]EditorErrors: Warning: No assets to check in!
