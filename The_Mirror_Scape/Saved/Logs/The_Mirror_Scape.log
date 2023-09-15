@@ -1412,3 +1412,159 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
 [2023.09.15-04.35.58:339][291]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
 [2023.09.15-04.35.58:491][291]EditorErrors: Warning: No assets to check in!
+[2023.09.15-04.38.28:785][259]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.15-04.38.28:800][259]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.09.15-04.38.28:803][259]LogWorldPartition: Display: GenerateStreaming started...
+[2023.09.15-04.38.28:803][259]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.09.15-04.38.28:803][259]LogWorldPartition: Display: GetPartitionedActors took 20 us
+[2023.09.15-04.38.28:803][259]LogWorldPartition: Display: GenerateStreaming took 389 us
+[2023.09.15-04.38.28:804][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.15-04.38.28:826][259]PIE: New page: PIE session: ThirdPersonMap (14 sep. 2023 22:38:28)
+[2023.09.15-04.38.28:831][259]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.09.15-04.38.28:831][259]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.09.15-04.38.28:831][259]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.15-04.38.28:838][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006912s)
+[2023.09.15-04.38.28:838][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006976s)
+[2023.09.15-04.38.28:838][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.15-04.38.28:839][259]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.09.15-04.38.28:840][259]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.09.15-04.38.28:840][259]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.15-04.38.28:840][259]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.09.15-04.38.28:841][259]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.09.15-04.38.28:841][259]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.82 sec)
+[2023.09.15-04.38.28:841][259]LogPlayLevel: PIE: World Init took: (0.003395s)
+[2023.09.15-04.38.28:857][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.09.15-04.38.28:858][259]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.09.15-04.38.28:858][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.15-04.38.28:858][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.15-04.38.28:858][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.15-04.38.28:858][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.15-04.38.28:858][259]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.15-04.38.28:858][259]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.15-04.38.28:858][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.15-04.38.28:858][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.15-04.38.28:859][259]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.15-04.38.28:859][259]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.15-04.38.28:859][259]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.15-04.38.28:862][259]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.15-04.38.28:913][259]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2023.09.15-04.38.28:914][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.15-04.38.28:914][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.15-04.38.28:914][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.15-04.38.28:917][259]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.09.15-04.38.28:917][259]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.09.15-04.38.28:918][259]LogInit: FAudioDevice initialized.
+[2023.09.15-04.38.28:918][259]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.09.15-04.38.28:918][259]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2023.09.15-04.38.28:918][259]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.09.15-04.38.28:922][259]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.15-04.38.28:924][259]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2023.09.15-01.38.28
+[2023.09.15-04.38.28:925][259]LogWorld: Bringing up level for play took: 0.002907
+[2023.09.15-04.38.28:928][259]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.09.15-04.38.29:294][259]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2023.09.15-04.38.29:295][259]PIE: Server logged in
+[2023.09.15-04.38.29:296][259]PIE: Play in editor total start time 0.496 seconds.
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: ================================================
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Total job queries 113, among them cache hits 16 (14.16%)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Tracking 94 distinct input hashes that result in 82 distinct outputs (87.23%)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: RAM used: 0.85 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.10%
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Shaders Compiled: 94
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Jobs assigned 97, completed 94 (96.91%)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Average time worker was idle: 44.39 s
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Time job spent in pending queue: average 24.88 s, longest 71.39 s
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Job execution time: average 17.06 s, max 41.51 s
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Job life time (pending + execution): average 42.69 s, max 74.97
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 79.76 s
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Jobs were issued in 52 batches (only local compilation was used), average 1.87 jobs/batch
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Average processing rate: 1.18 jobs/sec
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Total thread time: 286.58 s
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Total thread preprocess time: 12.10 s
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Percentage time preprocessing: 4.22%
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Effective parallelization: 3.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                    FCloudRenderViewPS000true (compiled    1 times, average 4.79 sec, max 4.79 sec, min 4.79 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 4.49 sec, max 7.05 sec, min 3.14 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 4.37 sec, max 4.37 sec, min 4.37 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 4.32 sec, max 4.32 sec, min 4.32 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 26.61% of total time (compiled   17 times, average 4.49 sec, max 7.05 sec, min 3.14 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.49% of total time (compiled   10 times, average 3.58 sec, max 7.17 sec, min 1.58 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.98% of total time (compiled   11 times, average 2.60 sec, max 4.45 sec, min 1.48 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.28% of total time (compiled    6 times, average 2.52 sec, max 4.16 sec, min 1.62 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.55% of total time (compiled    6 times, average 2.17 sec, max 4.26 sec, min 1.14 sec)
+[2023.09.15-04.38.32:184][262]LogShaderCompilers: Display: ================================================
+[2023.09.15-04.38.32:437][266]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.15-04.39.10:487][388]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=76.84 Y=-91.02 Z=0.00 Location: X=1164.37 Y=2066.04 Z=229.61 Normal: X=0.36 Y=-0.09 Z=0.93 PenetrationDepth:6.597 Actor:StaticMeshActor_2 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2023.09.15-04.39.32:537][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.15-04.39.32:543][ 67]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.09.15-04.39.32:584][ 67]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.09.15-04.39.32:674][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.15-04.39.32:674][ 67]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.09.15-04.39.32:719][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.15-04.39.32:732][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.15-04.39.32:745][ 67]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.15-04.39.32:746][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.15-04.39.32:748][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.09.15-04.39.32:754][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.15-04.39.32:772][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.09.15-04.39.32:817][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.09.15-04.44.18:315][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.09.15-04.44.19:653][357]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.15-04.44.20:157][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.09.15-04.44.20:172][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.09.15-04.44.20:184][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.09.15-04.44.21:402][357]SourceControl: Error: Updated 0 paths from the index
+[2023.09.15-04.44.21:646][357]SourceControl: rm 'The_Mirror_Scape/Content/Lasers/InspectableParent.uasset'
+[2023.09.15-04.44.21:734][358]LogAutomationController: Ignoring very large delta of 3.60 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.09.15-04.44.29:737][607]SourceControl: fatal: E:/UE_5.1/Engine/Content: 'E:/UE_5.1/Engine/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Bridge/Content: 'E:/UE_5.1/Engine/Plugins/Bridge/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/UE_5.1/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content: 'E:/UE_5.1/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Animation/ControlRig/Content: 'E:/UE_5.1/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content: 'E:/UE_5.1/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Animation/IKRig/Content: 'E:/UE_5.1/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/FX/Niagara/Content: 'E:/UE_5.1/Engine/Plugins/FX/Niagara/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content: 'E:/UE_5.1/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'E:/UE_5.1/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content: 'E:/UE_5.1/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content: 'E:/UE_5.1/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/UE_5.1/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Interchange/Runtime/Content: 'E:/UE_5.1/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/Metasound/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content: 'E:/UE_5.1/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/UE_5.1/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content: 'E:/UE_5.1/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/2D/Paper2D/Content: 'E:/UE_5.1/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content: 'E:/UE_5.1/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:738][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Media/MediaPlate/Content: 'E:/UE_5.1/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:739][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content: 'E:/UE_5.1/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:739][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.29:739][607]SourceControl: fatal: E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'E:/UE_5.1/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'E:/Unreal_Git_Proyects/The_Mirror_Scape/The-Mirror-Scape'
+[2023.09.15-04.44.34:306][607]LogSlate: Window 'Submit Files' being destroyed
+[2023.09.15-04.44.37:460][607]LogSourceControl: commit successful: [main 20d4821] asd
+[2023.09.15-04.44.37:549][607]SourceControl: [main 20d4821] asd
+[2023.09.15-04.44.37:549][607]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2023.09.15-04.44.37:549][607]SourceControl:  delete mode 100644 The_Mirror_Scape/Content/Lasers/InspectableParent.uasset
+[2023.09.15-04.44.37:571][607]SourceControl: Commited [main 20d4821] asd.
+[2023.09.15-04.44.37:597][608]LogAutomationController: Ignoring very large delta of 7.89 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
